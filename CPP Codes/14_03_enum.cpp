@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    //enum gives the value number to write
+    enum Meal{breakfast, lunch , dinner};
+    Meal m1=breakfast;
+    cout<<m1<<endl;
+    cout<<breakfast<<endl;
+    cout<<lunch<<endl;
+    cout<<dinner<<endl;
+return 0;
+}
